@@ -1,0 +1,48 @@
+* {
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+}
+
+/* body {
+  background-color: white;
+  color: black;
+} */
+
+h1 {
+  margin: 50px;
+  background-color: white;
+  color: black;
+}
+
+body.dark-on,
+.btn-container.dark-on,
+h1.dark-on {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.btn-container {
+  width: 50px;
+  height: 15px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.toggle-btn {
+  margin: 0;
+  width: 13px;
+  height: 13px;
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid white;
+  transform: translateX(0);
+}
+
+.toggle-btn.dark-on {
+  transform: translateX(35px);
+  background-color: white;
+  border-color: black;
+}
