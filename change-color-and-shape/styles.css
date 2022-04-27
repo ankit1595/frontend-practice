@@ -2,11 +2,13 @@
   max-width: 650px;
   margin: auto;
 }
+
+/* ||DEFAULT COLOR - PURPLE */
 .circle {
   width: 200px;
   height: 200px;
-  background-color: black;
   border-radius: 50%;
+  background-color: purple;
   position: relative;
 }
 
@@ -20,7 +22,8 @@ button {
   padding: 5px 10px;
 }
 
-.shape {
+/* ||DEFAULT SHAPE - SQUARE */
+.shape0 {
   position: absolute;
   height: 60%;
   width: 60%;
@@ -66,4 +69,21 @@ button {
   transform: translate(-50%, -50%) rotate(45deg);
   margin: auto;
   background-color: white;
+}
+
+/*  */
+.color0 {
+  background-color: brown;
+}
+
+.color1 {
+  background-color: darkolivegreen;
+}
+
+.color2 {
+  background-color: darkcyan;
+}
+
+.color3 {
+  background-color: darkgoldenrod;
 }
