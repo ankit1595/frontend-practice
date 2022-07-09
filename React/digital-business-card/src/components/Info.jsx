@@ -15,10 +15,13 @@ export default function Info() {
             Email
           </button>
         </a>
-        <button className="primary">
-          <i class="fa-brands fa-github"></i>
-          GitHub
-        </button>
+
+        <a href="https://github.com/ankit1595">
+          <button className="primary">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+          </button>
+        </a>
       </div>
     </div>
   );
