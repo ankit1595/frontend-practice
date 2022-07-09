@@ -1,5 +1,4 @@
 import profilePhoto from "../images/Ankit.jpg";
-import githubBtn from "../images/GitHub-Mark-Light-120px-plus.png";
 
 export default function Info() {
   return (
@@ -16,7 +15,7 @@ export default function Info() {
           </button>
         </a>
 
-        <a href="https://github.com/ankit1595">
+        <a href="https://github.com/ankit1595" target="_blank">
           <button className="primary">
             <i class="fa-brands fa-github"></i>
             GitHub
