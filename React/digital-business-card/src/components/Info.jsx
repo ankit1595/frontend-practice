@@ -6,7 +6,9 @@ export default function Info() {
       <img src={profilePhoto} alt="" width="300px" className="photo" />
       <h1>Ankit Sharma</h1>
       <div>Frontend Developer</div>
-      <a href="https://ankit-sharma.netlify.app">ankit-sharma.website</a>
+      <a href="https://ankit-sharma.netlify.app" target="_blank">
+        ankit-sharma.website
+      </a>
       <div className="buttons">
         <a href="mailto:ankit.95sharma@gmail.com">
           <button className="secondary">
