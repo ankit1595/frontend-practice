@@ -43,10 +43,10 @@ nav {
 }
 
 .card--img {
-  width: auto;
-  height: auto;
+  /* width: auto;
+  height: auto; */
   max-width: 125px;
-  max-width: 168px;
+  max-height: 168px;
   border-radius: 5px;
 }
 
