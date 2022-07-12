@@ -12,7 +12,7 @@ export default function Card({ data }) {
           {data.location.toUpperCase()}
         </span>
 
-        <a className="maps-url" href={data.googleMapsUrl}>
+        <a className="maps-url" href={data.googleMapsUrl} target="_blank">
           View on Google Maps
         </a>
 
