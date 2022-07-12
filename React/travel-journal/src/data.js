@@ -1,6 +1,6 @@
-import shimla from "./images/Shimla landscape.jpeg";
+import shimla from "./images/Shimla1.jpeg";
 import nashik from "./images/nashik2.jpeg";
-import goa from "./images/goa.jpeg";
+import goa from "./images/goa1.jpeg";
 
 export default [
   {
